@@ -1,0 +1,22 @@
+{
+  "name": "briefguo.github.io",
+  "version": "1.0.0",
+  "description": "homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briefguo/briefguo.github.io.git"
+  },
+  "keywords": [
+    "homepage"
+  ],
+  "author": "GYJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briefguo/briefguo.github.io/issues"
+  },
+  "homepage": "https://github.com/briefguo/briefguo.github.io#readme"
+}
