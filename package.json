@@ -1,22 +1,24 @@
 {
-  "name": "briefguo.github.io",
+  "name": "picoo-studio",
   "version": "1.0.0",
-  "description": "homepage",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"OK\""
+  "description": "![logo](./assets/logo.png)",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/picoo-studio/picoo-studio#readme",
+  "bugs": {
+    "url": "https://github.com/picoo-studio/picoo-studio/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/briefguo/briefguo.github.io.git"
+    "url": "git+https://github.com/picoo-studio/picoo-studio.git"
   },
-  "keywords": [
-    "homepage"
-  ],
-  "author": "GYJ",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/briefguo/briefguo.github.io/issues"
-  },
-  "homepage": "https://github.com/briefguo/briefguo.github.io#readme"
+  "author": "picoo-studio",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx http-server ./ -p 8080"
+  }
 }

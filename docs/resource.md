@@ -1,0 +1,1 @@
+- [图片压缩](https://docsmall.com/image-compress)
