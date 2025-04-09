@@ -4,4 +4,4 @@
   
 - [使用 Sequencer 保存动画序列](https://youtu.be/w9mijf-gKOg?si=zR1Rm_LlA8-Zzdlz)
 
-- [WorldTrigger百科]https://worldtriggerwiki.com/wiki/Welcome_to_the_World_Trigger_Wiki
+- [WorldTrigger百科](https://worldtriggerwiki.com/wiki/Welcome_to_the_World_Trigger_Wiki)
