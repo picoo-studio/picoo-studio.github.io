@@ -1,7 +1,6 @@
 {
   "name": "picoo-studio",
   "version": "1.0.0",
-  "description": "![logo](./assets/logo.png)",
   "keywords": [
     "game"
   ],
@@ -13,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/picoo-studio/picoo-studio.git"
   },
-  "license": "ISC",
+  "license": "BSD 2-Clause",
   "author": "picoo-studio",
   "type": "commonjs",
   "main": "index.js",
