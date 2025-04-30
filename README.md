@@ -1,5 +1,3 @@
-![logo](./public/assets/logo.png)
-
 # Picoo Studio
 
 顶峰工作室
