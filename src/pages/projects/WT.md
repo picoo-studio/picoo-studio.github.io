@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/SiteLayout.astro
+layout: ../../layouts/SiteLayout.astro
 title: "WT"
 author: "Matthew Phillips"
 date: "09 Aug 2022"
