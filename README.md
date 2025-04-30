@@ -1,4 +1,4 @@
-![logo](./assets/logo.png)
+![logo](./public/assets/logo.png)
 
 # Picoo Studio
 
