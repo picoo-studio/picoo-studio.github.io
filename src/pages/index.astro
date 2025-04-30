@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import SiteLayout from "../layouts/SiteLayout.astro";
+import logo from '../assets/logo.min.png';
 ---
 
 <style>
@@ -16,7 +17,7 @@ import SiteLayout from "../layouts/SiteLayout.astro";
   <div class="main">
     <Image
       loading="eager"
-      src="/assets/logo.min.png"
+      src={logo}
       width="240"
       height="240"
       alt="Picoo Studio Logo"

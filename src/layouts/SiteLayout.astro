@@ -1,6 +1,6 @@
 ---
-import GoogleTagmanager from "./GoogleTagmanager.astro";
 import { ClientRouter } from "astro:transitions";
+import GoogleTagmanager from "./GoogleTagmanager.astro";
 const { title } = Astro.props;
 ---
 
@@ -11,7 +11,7 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
     <title>{title ?? "Picoo Studio"}</title>
-    <link rel="icon" href="/assets/logo.min.png" type="image/png" />
+    <link rel="icon" href="/assets/logo.192x192.png" type="image/png" />
     <meta
       name="description"
       content="Welcome to Picoo Studio, your go-to destination for creative and innovative solutions."
@@ -69,15 +69,6 @@ const { title } = Astro.props;
         padding: 16px;
       }
 
-      @media screen and (min-width: 600px) {
-        nav,
-        main {
-          width: 900px;
-          margin: 0 auto;
-          justify-content: flex-start;
-        }
-      }
-
       .logo {
         margin-bottom: 20px;
       }
@@ -94,6 +85,14 @@ const { title } = Astro.props;
         color: rgb(200, 200, 200);
         text-decoration: none;
       }
+      @media screen and (min-width: 600px) {
+        nav,
+        main {
+          width: 900px;
+          margin: 0 auto;
+          justify-content: flex-start;
+        }
+      }
 
       footer a:hover {
         text-decoration: underline;
@@ -103,13 +102,15 @@ const { title } = Astro.props;
   </head>
 
   <body>
-    <nav>
-      <a href="/" data-astro-reload>Home</a>
-      <a href="/projects/" data-astro-history="auto">Projects</a>
-      <a href="/area/" data-astro-history="auto">Area</a>
-      <a href="/inbox/" data-astro-history="auto">Inbox</a>
-      <a href="/resources/" data-astro-history="auto"> Resources </a>
-    </nav>
+    <header>
+      <nav>
+        <a href="/" data-astro-reload>Home</a>
+        <a href="/projects/" data-astro-history="auto">Projects</a>
+        <a href="/area/" data-astro-history="auto">Area</a>
+        <a href="/inbox/" data-astro-history="auto">Inbox</a>
+        <a href="/resources/" data-astro-history="auto"> Resources </a>
+      </nav>
+    </header>
     <main>
       <slot />
       <ClientRouter />
