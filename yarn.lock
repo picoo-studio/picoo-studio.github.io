@@ -520,6 +520,11 @@
   resolved "https://registry.npmmirror.com/@oslojs/encoding/-/encoding-1.1.0.tgz#55f3d9a597430a01f2a5ef63c6b42f769f9ce34e"
   integrity sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==
 
+"@picoo-studio/astro-google-tagmanager@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@picoo-studio/astro-google-tagmanager/-/astro-google-tagmanager-1.4.1.tgz#ae6aa0ad62dbeba8ad50be1fab7cc3cbc1c0beda"
+  integrity sha512-8ve/TEBnfoz+RHK/aStiKNP8Be65f4YDu0LZrqsToLOYBIpkgVUqYkLNXgPs4VKSm1AXIckDK6TdcW4INVGUmA==
+
 "@rollup/pluginutils@^5.1.4":
   version "5.1.4"
   resolved "https://registry.npmmirror.com/@rollup/pluginutils/-/pluginutils-5.1.4.tgz#bb94f1f9eaaac944da237767cdfee6c5b2262d4a"
