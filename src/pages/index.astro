@@ -1,12 +1,21 @@
 ---
+import { Image } from "astro:assets";
 import SiteLayout from "../layouts/SiteLayout.astro";
 ---
 
+<style>
+  .main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+
 <SiteLayout>
-  <div
-    style="display: flex; justify-content: center; align-items: center;"
-  >
-    <img
+  <div class="main">
+    <Image
+      loading="eager"
       src="/assets/logo.min.png"
       width="240"
       height="240"

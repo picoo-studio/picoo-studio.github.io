@@ -1,0 +1,19 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+---
+<SiteLayout>
+  <div class="main">
+    <h1>WT</h1>
+    <a data-id="downloadLink">WT for IOS ⏬</a>
+  </div>
+</SiteLayout>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const version = params.get("version");
+  const downloadURL = `itms-services://?action=download-manifest&url=https://cdn.picoo.studio/releases/download/${version}/manifest.plist`;
+  const downloadLink = document.querySelector("[data-id=downloadLink]");
+  downloadLink?.addEventListener("click", () => {
+    window.location.href = downloadURL;
+  });
+</script>
