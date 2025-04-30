@@ -8,11 +8,8 @@
   "bugs": {
     "url": "https://github.com/picoo-studio/picoo-studio/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/picoo-studio/picoo-studio.git"
-  },
-  "license": "BSD 2-Clause",
+  "repository": "git+https://github.com/picoo-studio/picoo-studio.git",
+  "license": "BSD",
   "author": "picoo-studio",
   "type": "commonjs",
   "main": "index.js",
@@ -29,5 +26,7 @@
     "astro": "^5.7.9",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
-  }
+  },
+  "description": "game",
+  "private": true
 }
