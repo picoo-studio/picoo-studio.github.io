@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.2.6",
-    "@picoo-studio/astro-google-tagmanager": "^1.4.1",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "astro": "^5.7.9",
